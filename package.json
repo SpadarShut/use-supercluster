@@ -11,7 +11,8 @@
     "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint src",
-    "prepare": "tsdx build && husky install"
+    "prepare": "tsdx build && husky install",
+    "prepack": "tsdx build && husky install"
   },
   "peerDependencies": {
     "react": ">=16",
