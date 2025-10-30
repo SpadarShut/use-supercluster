@@ -1,17 +1,17 @@
 {
   "version": "1.2.0",
   "license": "MIT",
-  "main": "dist/use-supercluster.esm.js",
+  "main": "dist/use-supercluster.cjs.production.min.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
   "scripts": {
-    "start": "tsdx watch --format esm",
-    "build": "tsdx build --format esm",
+    "start": "tsdx watch",
+    "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint src",
-    "prepare": "tsdx build --format esm && husky install"
+    "prepare": "tsdx build && husky install"
   },
   "peerDependencies": {
     "react": ">=16",
