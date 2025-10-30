@@ -7,11 +7,11 @@
     "dist"
   ],
   "scripts": {
-    "start": "tsdx watch --format esm",
-    "build": "tsdx build --format esm",
+    "start": "tsdx watch",
+    "build": "tsdx build",
     "test": "tsdx test",
     "lint": "tsdx lint src",
-    "prepare": "tsdx build --format esm && husky install"
+    "prepare": "tsdx build && husky install"
   },
   "peerDependencies": {
     "react": ">=16",
